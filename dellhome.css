@@ -1,0 +1,923 @@
+* h1{
+    font-family: Roboto, 'Cordia New', "Microsoft Sans Serif", Utsaah, 'Devanagari MT', 'Nirmala UI', Latha, InaiMathi, Gautami, 'Telugu Sangam MN', Tunga, 'Kannada Sangam MN', Kartika, 'Malayalam Sangam MN', Shruti, 'Gujarati MT', 'Gujarati Sangam MN', Vrinda, 'Bangla Sangam MN', 'Meiryo UI', 'メイリオ', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', Gulim, AppleGothic, 'Apple LiGothic', 'LiHei Pro', Osaka, STHeiti, '华文黑体', STXihei, '华文细黑', SimHei, '黑体', 'Arial Unicode MS', Arial, sans-serif;
+}
+* p{
+    font-family: Roboto, 'Cordia New', "Microsoft Sans Serif", Utsaah, 'Devanagari MT', 'Nirmala UI', Latha, InaiMathi, Gautami, 'Telugu Sangam MN', Tunga, 'Kannada Sangam MN', Kartika, 'Malayalam Sangam MN', Shruti, 'Gujarati MT', 'Gujarati Sangam MN', Vrinda, 'Bangla Sangam MN', 'Meiryo UI', 'メイリオ', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', Gulim, AppleGothic, 'Apple LiGothic', 'LiHei Pro', Osaka, STHeiti, '华文黑体', STXihei, '华文细黑', SimHei, '黑体', 'Arial Unicode MS', Arial, sans-serif;
+}
+*{
+    font-family: Roboto, 'Cordia New', "Microsoft Sans Serif", Utsaah, 'Devanagari MT', 'Nirmala UI', Latha, InaiMathi, Gautami, 'Telugu Sangam MN', Tunga, 'Kannada Sangam MN', Kartika, 'Malayalam Sangam MN', Shruti, 'Gujarati MT', 'Gujarati Sangam MN', Vrinda, 'Bangla Sangam MN', 'Meiryo UI', 'メイリオ', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', Gulim, AppleGothic, 'Apple LiGothic', 'LiHei Pro', Osaka, STHeiti, '华文黑体', STXihei, '华文细黑', SimHei, '黑体', 'Arial Unicode MS', Arial, sans-serif;
+}
+*{
+    margin: 0;
+}
+.n1d2 label{
+    display:none;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#demo{
+    display: none;
+    
+}
+#demo:checked~.n1d4 ul{
+    display: block;
+}
+#demo:checked~.n1d3 ul{
+    display: block;
+}
+.n1d1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.n1d2{
+    display: flex;
+}
+.n1d2 img{
+    margin-top: -50px;
+     margin-right: 50px;
+    width: 225px;
+}
+.n1d2 input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 390px;
+}
+input::placeholder{
+    padding-left: 10px;
+    opacity: 0.7;
+}
+.fd1 label{
+    
+}
+#fdd0:checked~.fd2 ul{
+    display: block;
+}
+.n1d2f{
+    padding-top: 7px;
+}
+.n1d3 ul{
+    display: flex;
+    gap: 30px;
+}
+.n1d3 ul{
+    list-style: none;
+    
+}
+.n1d3 i{
+    padding-right: 10px;
+}
+.n1d3{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.n1d4 ul{
+    display: flex;
+    gap: 45px;
+    margin-top: -60px;
+    padding-left:25px;
+    color: gray;
+    list-style: none;
+}
+.de2{
+    display: flex;
+    justify-content: space-between;
+}
+.de2d1{
+    margin-left: 150px;
+    margin-top: 170px;
+
+}
+.de2d1 p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    font-family: Roboto, 'Cordia New', "Microsoft Sans Serif", Utsaah, 'Devanagari MT', 'Nirmala UI', Latha, InaiMathi, Gautami, 'Telugu Sangam MN', Tunga, 'Kannada Sangam MN', Kartika, 'Malayalam Sangam MN', Shruti, 'Gujarati MT', 'Gujarati Sangam MN', Vrinda, 'Bangla Sangam MN', 'Meiryo UI', 'メイリオ', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', Gulim, AppleGothic, 'Apple LiGothic', 'LiHei Pro', Osaka, STHeiti, '华文黑体', STXihei, '华文细黑', SimHei, '黑体', 'Arial Unicode MS', Arial, sans-serif;
+}
+.de2d1 h1{
+    font-size: 30px;
+    font-family: Roboto, 'Cordia New', "Microsoft Sans Serif", Utsaah, 'Devanagari MT', 'Nirmala UI', Latha, InaiMathi, Gautami, 'Telugu Sangam MN', Tunga, 'Kannada Sangam MN', Kartika, 'Malayalam Sangam MN', Shruti, 'Gujarati MT', 'Gujarati Sangam MN', Vrinda, 'Bangla Sangam MN', 'Meiryo UI', 'メイリオ', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', Gulim, AppleGothic, 'Apple LiGothic', 'LiHei Pro', Osaka, STHeiti, '华文黑体', STXihei, '华文细黑', SimHei, '黑体', 'Arial Unicode MS', Arial, sans-serif;
+    color: black;
+    
+}
+
+.de2d2 input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+}
+#de2i1{
+    background-color: rgb(57, 57, 246);
+    color: white;
+    border: 0px solid;
+    font-size: 15px;
+}
+#de2i2{
+    background-color: white;
+    color: rgb(43, 43, 249);
+    border: 1px solid rgb(0, 0, 255);
+    font-size: 15px;
+}
+.de2d2 input:hover{
+    background-color: darkblue;
+}
+.de3{
+    background-color: black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.de3d1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    margin-right: 150px;
+    gap: 40px;
+}
+.de3d1 img:hover{
+    
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.de3d1 img{
+    height: 180px;
+    width: 200px;
+    background: rgb(125,50,136);
+background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0%, rgba(71,61,73,1) 100%);
+}
+.de3d1d1{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    width: 70px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.de3d1d2{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    width: 170px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.de3d1d3{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    width: 120px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.de3d1d4{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.de3d1d5{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.de3d1d6{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    width: 190px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.de4d4{
+    margin-left: 450px;
+    margin-top: -390px;
+    padding-bottom: 100px;
+}
+.de4d4 img{ 
+    width: 950px;
+    height: 530px;
+    border-radius: 10px;
+}
+.de4d1{
+    padding-left: 90px;
+    font-size: 25px;
+    padding-top: 60px;
+}
+.de4d1 p,h1{
+    color: whitesmoke;
+}
+.de4d3{
+    margin-left: 170px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    margin-top: 230px;
+    
+    
+}
+.de4{
+    background-color: rgb(3, 3, 19);
+}
+.p1{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.p2{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.p3{
+    padding-left: 10px;
+}
+.p4{
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.p4 i{
+    padding-left: 10px;
+}
+.p4:hover{
+    color: rgb(51, 51, 254);
+}
+#p41{
+    padding-top: 30px;
+}
+
+.de4d3d1 a{
+    text-decoration: none;
+    color: black;
+}
+.de5d2{
+    display: flex;
+    gap: 20px;
+    padding-left: 250px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    
+}
+.de5{
+    background-color: #002a58;
+}
+.de5d2 img{
+    width: 250px;
+    height: 200px;
+}
+.de5d2d1{
+    background-color: rgba(0, 0, 0, .45);
+    color: white;
+    
+}
+.de5d2d1 p,h2{
+    line-height: 60px;
+    padding-left: 10px;
+}
+.de5d2d1 p:hover{
+    color: rgb(51, 51, 254);
+}
+.de5d1{
+    padding-top: 90px;
+    padding-left: 120px;
+    font-size: 25px;
+    line-height: 60px;
+    color: white;
+}
+.de6d1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 90px;
+}
+.de6d3 img{
+    width: 800px;
+    height: 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.de6d2{
+    padding-left: 100px;
+    color: white;
+}
+.p61{
+    padding-bottom: 30px ;
+    font-size: 19px;
+}
+.p62{
+    font-size: 50px;
+    
+}
+.p63{
+    padding-top: 30px;
+    font-size: 19px;
+    
+}
+.de6d2 input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(57, 57, 246);
+    color: white;
+    border: 0px solid;
+    font-size: 15px;
+}
+
+.de6{
+    background-color: #1d2c3b;
+}
+#de6d1d{
+    padding-bottom: 20px;
+}
+.de6d4d1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 30px;
+    font-size: 22px;
+    text-decoration: none;
+    direction: rtl;
+    
+}
+.de6d4d1 a{
+    text-decoration: none;
+    color: white;
+}
+.de6d4{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.de6d4d1 a:hover{
+
+    color: yellow;
+    
+}
+.b1:hover ~ a{
+    color: yellow;
+}
+.b2:hover ~ a{
+    color: yellow;
+}
+.b3:hover ~ a{
+    color: yellow;
+}
+.b4:hover ~ a{
+    color: yellow;
+}
+.b5:hover ~ a{
+    color: yellow;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 90px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.footer li{
+    list-style: none;
+}
+.footer h3{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.de7{
+    font-family: Roboto, 'Cordia New', "Microsoft Sans Serif", Utsaah, 'Devanagari MT', 'Nirmala UI', Latha, InaiMathi, Gautami, 'Telugu Sangam MN', Tunga, 'Kannada Sangam MN', Kartika, 'Malayalam Sangam MN', Shruti, 'Gujarati MT', 'Gujarati Sangam MN', Vrinda, 'Bangla Sangam MN', 'Meiryo UI', 'メイリオ', 'MS UI Gothic Reg', 'Hiragino Kaku Gothic Reg', 'ヒラギノ角ゴ Pro W3 Reg', 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', 'Microsoft JhengHei', '微軟正黑體', 'Malgun Gothic', '맑은 고딕', Gulim, AppleGothic, 'Apple LiGothic', 'LiHei Pro', Osaka, STHeiti, '华文黑体', STXihei, '华文细黑', SimHei, '黑体', 'Arial Unicode MS', Arial, sans-serif;
+    color: rgb(108, 108, 108);
+    line-height: 30px;
+    font-size: 15px;
+}
+.footer1{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.fd1{
+    display: flex;
+    gap: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.de9d2{
+    display: flex ;
+    justify-content: center;
+    gap: 10px;
+}
+.de9d2d1 img{
+    height: 215px;
+    width: 290px;
+
+}
+.de9d2d1{
+    background-color: #00162e;
+}
+.l9d2d12{
+    padding: 10px;
+}
+.l9d2d12 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.l9d2d12 p{
+    padding-top: 10px;
+}
+.de9{
+    background-color: #02264c;
+    padding-bottom: 150px;
+}
+.de9d1{
+    padding-left: 165px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    line-height: 40px;
+    
+}
+.de9d1 p{
+    font-size: 15px;
+    color: antiquewhite;
+}
+#de9d1s{
+    font-size: 35px;
+    
+}
+.de8d1v{
+    position: absolute;
+    
+    z-index: -1;
+}
+.de1fd2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.de1fd2 a{
+    background-color: rgb(38, 37, 38);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+.de1fd2 a:hover{
+    background-color: #556e7a;
+    transition: all .7s;
+}
+.de6d2 input:hover{
+    background-color: #064da4;
+    transition: all .7s;
+}
+.de1f{
+    background-color: #1d2c3b;
+}
+#fm1{
+    font-size: 45px;
+    padding-bottom: 25px;
+    color: rgb(47, 255, 231);
+    
+    
+}
+.de1fd1{
+    padding-left: 120px;
+    padding-top: 90px;
+    
+}
+.de1fd2d1 p{
+    color: whitesmoke;
+}
+.de1fd1 p{
+    color: whitesmoke;
+}
+#fd1s{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.de2fd1{
+    text-align: center;
+    width: 603px;
+    margin-left: 5px;
+    
+}
+
+.de2fd2{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 30px;
+    
+}
+#b1b{
+    color: black;
+
+}
+#b2b{
+    color: white;
+    background-color: #002a58;
+
+}
+#b2b:hover{
+    color: rgba(0, 0, 0, 0.656);
+    background-color: rgba(252, 249, 249, 0.912);
+    transition: all .7s;
+}
+#b1b:hover{
+    color: rgba(0, 0, 0, 0.656);
+    background-color: rgba(252, 249, 249, 0.912);
+    transition: all .7s;
+}
+.de2fd2 button{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    padding-left: 92px;
+    padding-right: 92px;
+    font-size: 17px;
+    
+    
+}
+.de2fd3 ul{
+    display: flex;
+    justify-content: center ;
+    gap: 90px;
+    list-style: none;
+    text-align: center;
+    
+}
+.de2fd3 i{
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.de2f{
+    background-color: #002a58;
+    color: white;
+    width: 600px;
+    height: 340px;
+    margin-top: 130px;
+    margin-left: 20px;
+    position: absolute;
+    margin-left: 160px;
+}
+#amit{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.de2fd4{
+    margin-left: 645px;
+    background-image: url(Images/d12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:718px;
+    height:600px;
+    
+}
+.de3fd2{
+    position: absolute;
+    background-color: #141d28;
+    margin-left: 810px;
+    height: 370px;
+    width: 598px;
+    margin-top: 115px;
+    text-align: center;
+
+}
+.dfghj{
+    display: none;
+}
+.de3fd1{
+    margin-left: 160px;
+    width: 720px;
+    height:600px;
+    background-image: url(Images/d13.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.de3f{
+    padding-top: 20px;
+    color: whitesmoke;
+}
+#fd21{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    
+}
+.de9{
+    display: none;
+}
+#fd22{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+#fd22 a{
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 80px;
+    color: white;
+}
+#fd22 button{
+    border: 1px solid white;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #141d28;
+    color: white;
+    font-size: 15px;
+}
+.de8{
+    display: none;
+}
+
+.de3fd2d1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.de3fd2d1 ul i{
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#fd22 a:hover{
+    text-decoration: underline;
+    transition: all .6s;
+
+}
+#fd22 button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.677);
+    transition: all .6s;
+}
+.fd2d2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.s1s1s{
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+@media screen and (max-width: 700px){
+    .n1 label{
+        display: block;
+
+    }
+    .footer h3{
+        padding-left: 20px;
+    }
+    .fd1{
+        padding-left: 20px;
+    }
+    .n1d4,.n1d3 ul{
+        display: none;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        background-color: crimson;
+        transform: translateX(0);
+        height: calc(100% - 58px);
+        width: 320px;
+    }
+    .de2{
+        display: block;
+    }
+    .de2d3 img{
+        width: 100%;
+        margin-top: -500px;
+        margin-bottom: 250px;
+        border-top:1px solid #2f3030d5;
+    }
+    .de2d1{
+        top: 260px;
+        position: relative;
+        margin-left: 20px;
+    }
+    .de4d4{
+        width: 100%;
+        margin: 0px;
+    }
+    .de5d2{
+        display: block;
+        padding-left: 10px;
+        
+    }
+    .de3fd2{
+        margin: 10px;
+        margin-left: 0;
+        margin-top: 585px;
+        width: 100%;
+    }
+    .de3fd1{
+        margin-left: 0;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+
+    }
+    .de6d4{
+        padding-top: 200px;
+    }
+    .de2fd4{
+        margin-left: 0;
+        width: 100%;
+        background-size: contain;
+    }
+    .de2f{
+        margin-left: 0;
+        margin-top:483px;
+        width: 100%;
+        
+    }
+    .de4d4{
+        margin-left: 0;
+        margin-top: -400px;
+        
+    }
+    .de4d1{
+        padding-left: 10px;
+    }
+    .de4d3{
+        margin-left: 0;
+        top: 380px;
+        border-radius: 0px;
+        width: 100%;
+    }
+    .de4d4 img{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .de3d1{
+        padding-left: 55px;
+        gap: 70px;
+        margin-right: 0px;
+    }
+    .de5d2d1{
+        display: flex;
+    }
+    .de5d2d1{
+        background-color: #002a58;
+        padding-bottom: 40px;
+    }
+    .de5d1{
+        padding-left: 20px;
+    }
+    .de5d2 p{
+        display: none;
+    }
+    .de6d1{
+        display: block;
+    }
+    .de6d2{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .de6d3 img{
+        width: 100%;
+    }
+    .de1fd1{
+        padding-left: 20px;
+        padding-top: 0;
+        
+    }
+    .de1fd2{
+        display: block;
+        
+        margin-left: 10px;
+        margin-right: 20px;
+       
+
+    }
+    .de1fd2 a{
+        padding: 0px;
+        text-align: start;
+        padding-left: 100%;
+        padding-bottom: 70px;
+        background-color: #556e7a;
+        border-radius: 0px;
+    }
+    .de1fd2d1{
+        display: flex;
+        gap: 30px;
+        margin-left: 20px;
+    }
+    .jjoo{
+        padding-top: 20px;
+    }
+    .n1d2 img{
+        margin-right: 0px;
+        
+    }
+    .n1d2{
+        display: block;
+    }
+    .n1d2 img{
+        top: -32px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .n1d2f{
+        top: -30px;
+        width: 100%;
+        position: relative;
+        margin: 10px;
+        margin-top:-60px ;
+        
+    }
+    .n1d2 input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.482);
+        border-radius: 5px;
+    }
+    .de7 ul{
+        display: none;
+    }
+    .footer{
+        display: block;
+        padding: 0px;
+    }
+    .fd1{
+        display: block;
+    }
+    .fd1 label{
+        display: block;
+    }
+    .footer1{
+        display: block;
+        padding-left: 20px;
+    }
+    .fd2 input{
+        display: none;
+    }
+    .dfghj{
+        display: block;
+        position: relative;
+        top: -145px;
+        left: 570px;
+        font-size: 25px;
+    }
+    .dfghjk i{
+        padding-left: 20px;
+    }
+
+}
