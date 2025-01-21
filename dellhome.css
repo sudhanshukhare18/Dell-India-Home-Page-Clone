@@ -929,7 +929,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .de2d3 img{
         border: 0px;
         background-size: auto;
@@ -1067,6 +1067,15 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
         gap: 4%;
         padding-left: 10px;
 
+    }
+    .n1d2 input{
+        padding-right: 80%;
+    }
+    .dfghjk i{
+        padding-left: 10px;
+    }
+    .dfghj {
+        left: 70%;
     }
 
 }
