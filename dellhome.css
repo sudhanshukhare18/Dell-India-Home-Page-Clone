@@ -41,7 +41,7 @@
 .n1d2 input{
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-right: 390px;
+    padding-right: 90%;
 }
 input::placeholder{
     padding-left: 10px;
@@ -580,6 +580,9 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     
     
 }
+.fd2d2 label{
+    display: none;
+}
 .de2fd3 ul{
     display: flex;
     justify-content: center ;
@@ -740,12 +743,13 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
     .de2d3 img{
         width: 100%;
+        height: 100%;
         margin-top: -500px;
         margin-bottom: 250px;
         border-top:1px solid #2f3030d5;
     }
     .de2d1{
-        top: 260px;
+        
         position: relative;
         margin-left: 20px;
     }
@@ -786,6 +790,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
         margin-left: 0;
         margin-top:483px;
         width: 100%;
+        margin-top: 57%;
         
     }
     .de4d4{
@@ -808,7 +813,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
     .de3d1{
         padding-left: 55px;
-        gap: 70px;
+        gap: 4%;
         margin-right: 0px;
     }
     .de5d2d1{
@@ -823,6 +828,9 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
     .de5d2 p{
         display: none;
+    }
+    .fd2d2 label{
+        display: block;
     }
     .de6d1{
         display: block;
@@ -918,6 +926,147 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
     .dfghjk i{
         padding-left: 20px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .de2d3 img{
+        border: 0px;
+        background-size: auto;
+        
+    }
+    .dfghj{
+        
+        left: 75%;
+    }
+    .de2d1 p{
+        font-size: 15px;
+    }
+    .de2d1 h1{
+        font-size: 23px;
+    }
+    .de3d1 img{
+        width: 167px; 
+    }
+    .de3d1{
+        padding-left: 10px;
+    }
+    .de4d1{
+        font-size: 15px;
+    }
+    .de4d4 img{
+        height: 100%;
+    }
+    .de4d3{
+        top: 148px;
+    }
+    .de4d4{
+        padding-bottom: 60%;
+    }
+    .de5d1{
+        font-size: 25px;
+        padding-top: 60px;
+    }
+    .de5d2 img{
+        width: 38%;
+        height: 110%;
+    }
+    .de5d2{
+        flex-wrap: wrap;
+    }
+    .de5d2d1 p, h2{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .p62{
+        font-size: 30px;
+    }
+    .p63{
+        font-size: 18px;
+    }
+    .de6d3 img {
+    height: 100%;
+    }
+    .de2fd1{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .de2fd4{
+        background-position: top;
+        margin: 25px;
+        width: 87%;
+    }
+    .de2fd2 button{
+        padding-left: 10%;
+        padding-right: 10%;
+        border-radius: 10px;
+    }
+    .de2fd3 i {
+    padding-top: 50%;
+    }
+    .de2fd3 ul{
+        padding: 0px;
+        gap: 21px;
+    }
+    .de2f {
+        margin-left: 22px;
+        margin-top: 465px;
+        width: 88%;
+        margin-top: 55%;
+        height: 40%;
+    }
+    .de3fd1{
+        margin-top: -227px;
+    
+        margin-left: 22px;
+        width: 88%;
+    }
+    .de3fd2 {
+        margin: 10px;
+        margin-left: 5%;
+        margin-top: 43%;
+        width: 89%;
+    }
+    #fd21{
+        font-size: 28px;
+    }
+    #fd22 button {
+        border: 1px solid white;
+         padding-left: 12px;
+         padding-right: 12px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #141d28;
+        color: white;
+        font-size: 15px;
+    }
+    #fd22 a {
+        text-decoration: none;
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 00px;
+        color: white;
+    }
+    .de3fd2d1 ul{
+        padding-left: 0;
+        gap: 43px;
+    }
+    .de3fd2d1 ul i{
+        margin-top: -49%;
+    }
+    .de6d4{
+        padding-top: 100px;
+    }
+    .de6d4d1{
+        gap: 8px;
+    } 
+    .de6d4d1 p{
+        font-size: 20px;
+    }
+    .de3d1 {
+        gap: 4%;
+        padding-left: 10px;
+
     }
 
 }
