@@ -165,7 +165,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
 .de3d1d2{
     color: white;
     position: relative;
-    top: 20px;
+    top: 19px;
     left: 0px;
     background-color: black;
     width: 170px;
@@ -719,6 +719,9 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     font-size: 18px;
     padding-left: 3px;
 }
+.dfghjk{
+    display: none;
+}
 
 @media screen and (max-width: 700px){
     .n1 label{
@@ -930,9 +933,26 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     .dfghjk i{
         padding-left: 20px;
     }
-
+    .de3d1d1{
+        top: 19px;
+    }
+    .de3d1d4{
+        top: 19px;
+    }
+    .de3d1d6 {
+        font-size: 12px;
+        color: white;
+        position: relative;
+        top: 16px;
+        left: 0px;
+        background-color: black;
+        width: 159px;
+        /* padding-left: 10px; */
+        padding-top: 1px;
+        padding-bottom: 1px;
+    
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 550px){
     .de2d3 img{
         border: 0px;
         background-size: auto;
@@ -1083,10 +1103,18 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     .n1d2 input{
         padding-right: 57%;
     }
-    .dfghjk{
-        width: 25%;
+    .dfghjk {
+        width: 19%;
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: 319px;
+        font-size: 20px;
     }
     .dfghj{
         width: 25%;
+    }
+    .de3d1d2{
+        padding-left: 0px;
     }
 }
