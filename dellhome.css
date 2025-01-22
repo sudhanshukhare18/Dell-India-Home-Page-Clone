@@ -886,7 +886,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
     .n1d2 img{
         top: -32px;
-        padding-left: 20px;
+        margin-left: 28px;
         position: relative;
     }
     .n1d2f{
@@ -969,8 +969,9 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     .de2d1 h1{
         font-size: 23px;
     }
-    .de3d1 img{
-        width: 167px; 
+    .de3d1 img {
+        width: 156px;
+        height: 88%;
     }
     .de3d1{
         padding-left: 10px;
@@ -982,7 +983,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
         height: 100%;
     }
     .de4d3{
-        top: 145px;
+        top: 112px;
     }
     .de4d4{
         padding-bottom: 60%;
@@ -1109,7 +1110,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
         display: block;
         position: absolute;
         top: 16px;
-        left: 81%;
+        left: 76%;
         font-size: 20px;
     }
     .dfghj{
