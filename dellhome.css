@@ -666,6 +666,9 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     padding-bottom: 20px;
     font-size: 15px;
 }
+.fd2 input{
+    display: none;
+}
 #fd22 a{
     text-decoration: none;
     padding-top: 15px;
@@ -958,7 +961,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
         height: 100%;
     }
     .de4d3{
-        top: 148px;
+        top: 145px;
     }
     .de4d4{
         padding-bottom: 60%;
@@ -1013,7 +1016,7 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
         margin-top: 465px;
         width: 88%;
         margin-top: 55%;
-        height: 40%;
+        height: 56%;
     }
     .de3fd1{
         margin-top: -227px;
@@ -1079,5 +1082,11 @@ background: linear-gradient(135deg, rgba(125,50,136,1) 0%, rgba(247,238,249,1) 0
     }
     .n1d2 input{
         padding-right: 57%;
+    }
+    .dfghjk{
+        width: 25%;
+    }
+    .dfghj{
+        width: 25%;
     }
 }
